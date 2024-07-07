@@ -16,10 +16,6 @@ class ToDoList:
         task = Task(task_id, description)
         self.tasks.append(task)
     
-    def view_tasks(self):
-        for task in self.tasks:
-            print(task)
-    
     def mark_task_completed(self, task_id):
         for task in self.tasks:
             if task.task_id == task_id:
