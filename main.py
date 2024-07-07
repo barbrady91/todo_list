@@ -51,7 +51,7 @@ def main():
             print("Task added successfully.")
         
         elif choice == '2':
-            todo_list.view_tasks()
+            pass
         
         elif choice == '3':
             try:
